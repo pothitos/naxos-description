@@ -5,6 +5,7 @@ addons:
   apt:
     packages:
       - texlive-full
+
 script:
   - latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode"
     Naxos_XCSP3_2017.tex
