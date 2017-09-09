@@ -7,7 +7,7 @@ addons:
       - texlive-full
 script:
   - latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode"
-    Search_Methods.tex
+    Naxos_XCSP3_2017.tex
 
 after_success:
   # Decrypt private key for accessing web server
@@ -17,7 +17,7 @@ after_success:
     -out key_for_uploading.pem -d
   - chmod 600 key_for_uploading.pem
   # Upload to web server
-  - scp -i key_for_uploading.pem -o StrictHostKeyChecking=no Search_Methods.pdf
-    pothitos@linux19.di.uoa.gr:public_html/papers/
+  - scp -i key_for_uploading.pem -o StrictHostKeyChecking=no
+    Naxos_XCSP3_2017.pdf pothitos@linux19.di.uoa.gr:public_html/papers/
   - ssh -i key_for_uploading.pem pothitos@linux09.di.uoa.gr
-    chmod o+r public_html/papers/Search_Methods.pdf
+    chmod o+r public_html/papers/Naxos_XCSP3_2017.pdf
