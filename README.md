@@ -1,4 +1,4 @@
-# Building Search Methods with Self-confidence [![Build Status](https://travis-ci.org/pothitos/Search_Methods.svg?branch=master)](https://travis-ci.org/pothitos/Search_Methods)
+# Building Search Methods with Self-confidence [![Build Status](https://travis-ci.org/pothitos/naxos-description.svg?branch=master)](https://travis-ci.org/pothitos/naxos-description)
 
 The original conference paper is available through the
 [authors'](http://di.uoa.gr/~pothitos)
